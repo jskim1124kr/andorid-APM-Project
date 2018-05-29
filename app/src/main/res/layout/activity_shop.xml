@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:id="@+id/shop_xml">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView2">
+
+            <LinearLayout
+                android:layout_width="600dp"
+                android:layout_height="200dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:id="@+id/monsterURL"
+                android:layout_marginTop="805dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/monster"
+                    android:layout_width="600dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/monster"
+                    android:onClick="monsterButton"/>
+
+                <TextView
+                    android:id="@+id/textView7"
+                    android:layout_width="600dp"
+                    android:layout_height="50dp"
+                    android:text="MonsterZYM"
+                    android:textSize="40dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout5"
+                android:layout_width="600dp"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout"
+                android:layout_marginTop="404dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/healthmart"
+                    android:layout_width="600dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/healthmart"
+                    android:onClick="healthMartButton"/>
+
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="600dp"
+                    android:layout_height="50dp"
+                    android:text="HealthMart"
+                    android:textSize="40dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="600dp"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="201dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/bodyx"
+                    android:layout_width="600dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/bodyx"
+                    android:onClick="bodyxButton"/>
+
+                <TextView
+                    android:id="@+id/textView4"
+                    android:layout_width="600dp"
+                    android:layout_height="50dp"
+                    android:text="BodyX"
+                    android:textSize="40dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="600dp"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/kingkong"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:background="@drawable/kingkong"
+                    android:onClick="kingkongButton"/>
+
+                <TextView
+                    android:id="@+id/textView3"
+                    android:layout_width="600dp"
+                    android:layout_height="50dp"
+                    android:text="KingKong Factory"
+                    android:textSize="40dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout7"
+                android:layout_width="600dp"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/linearLayout5"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/cocobil"
+                    android:layout_width="600dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/kokobil"
+                    android:onClick="cocobilButton"/>
+
+                <TextView
+                    android:id="@+id/textView6"
+                    android:layout_width="600dp"
+                    android:layout_height="50dp"
+                    android:text="CoCoVill"
+                    android:textSize="40dp"
+                    android:textColor="#000000"
+                    android:textStyle="bold"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayout8"
+                android:layout_width="600dp"
+                android:layout_height="200dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/monsterURL"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/herdak"
+                    android:layout_width="600dp"
+                    android:layout_height="150dp"
+                    android:background="@drawable/herdak"
+                    android:onClick="cocobilButton" />
+
+                <TextView
+                    android:id="@+id/herdakText"
+                    android:layout_width="600dp"
+                    android:layout_height="50dp"
+                    android:text="HerDak"
+                    android:textColor="#000000"
+                    android:textSize="40dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="600dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="헬스 물품"
+        android:textAlignment="center"
+        android:background="#8FDEA0"
+        android:textSize="35dp"
+        android:textColor="#000000"
+        android:textStyle="bold"/>
+
+</RelativeLayout>

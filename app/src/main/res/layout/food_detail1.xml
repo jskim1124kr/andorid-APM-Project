@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:id="@+id/detail1_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/food3" />
+    <TextView
+        android:id="@+id/detail_message1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+
+    <ImageView
+        android:id="@+id/detail1_image1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:id="@+id/detail_message2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+
+    <TextView
+        android:id="@+id/detail_message3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000" />
+
+    <ImageView
+        android:id="@+id/detail1_image2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:id="@+id/detail_message4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"  />
+
+    <TextView
+        android:id="@+id/detail_message5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000" />
+
+    <ImageView
+        android:id="@+id/detail1_image3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:id="@+id/detail_message6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000" />
+
+    <TextView
+        android:id="@+id/detail_message7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+
+    <ImageView
+        android:id="@+id/detail1_image4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:id="@+id/detail_message8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+    <TextView
+        android:id="@+id/detail_message9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+
+    <ImageView
+        android:id="@+id/detail1_image5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:id="@+id/detail_message10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+    <TextView
+        android:id="@+id/detail_message11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+
+    <ImageView
+        android:id="@+id/detail1_image6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border"/>
+
+    <TextView
+        android:id="@+id/detail_message12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+    <TextView
+        android:id="@+id/detail_message13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#ff000000"/>
+
+</LinearLayout>
+</ScrollView>
+
+
+
+
+

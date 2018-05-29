@@ -1,0 +1,182 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.kjs11.plz.Main"
+   android:background="@drawable/background" >
+
+
+    <ImageView
+        android:id="@+id/handy"
+        android:layout_width="250dp"
+        android:layout_height="300dp"
+        android:layout_above="@+id/sche"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        app:srcCompat="@drawable/handyy" />
+
+    <ImageView
+        android:id="@+id/food"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/food"
+        android:onClick="foodButton"
+        android:layout_above="@+id/foodtext"
+        android:layout_toLeftOf="@+id/handy"
+        android:layout_toStartOf="@+id/handy" />
+
+    <ImageView
+        android:id="@+id/health"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/health"
+        android:onClick="healthButton"
+        android:layout_alignTop="@+id/food"
+        android:layout_alignRight="@+id/handy"
+        android:layout_alignEnd="@+id/handy" />
+
+    <ImageView
+        android:id="@+id/pt"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/pt"
+        android:layout_marginTop="68dp"
+        android:onClick="ptButton"
+        android:layout_alignTop="@+id/health"
+        android:layout_toRightOf="@+id/handy"
+        android:layout_toEndOf="@+id/handy"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp" />
+
+    <ImageView
+        android:id="@+id/shop"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginBottom="46dp"
+        app:srcCompat="@drawable/shop"
+        android:layout_alignBottom="@+id/sche"
+        android:layout_toRightOf="@+id/handy"
+        android:layout_toEndOf="@+id/handy"
+        android:onClick="shopButton"/>
+
+    <ImageView
+        android:id="@+id/report"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/report"
+        android:layout_marginBottom="42dp"
+        android:layout_alignBottom="@+id/shop"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginStart="17dp"
+        android:onClick="reportButton"/>
+
+    <ImageView
+        android:id="@+id/sche"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        app:srcCompat="@drawable/sche"
+        android:layout_marginBottom="135dp"
+        android:onClick="calButton"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/handy"
+        android:layout_alignStart="@+id/handy" />
+
+    <TextView
+        android:id="@+id/foodtext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="운동 / 식단 정보"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_above="@+id/handy"
+        android:layout_alignLeft="@+id/food"
+        android:layout_alignStart="@+id/food" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="헬 스 게 시 판"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/health"
+        android:layout_alignLeft="@+id/health"
+        android:layout_alignStart="@+id/health" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="PT 수강 게시판"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/pt"
+        android:layout_alignLeft="@+id/pt"
+        android:layout_alignStart="@+id/pt"
+        android:id="@+id/textView2" />
+
+    <TextView
+        android:id="@+id/shopBoard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="운 동 물 품"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_alignBottom="@+id/sche"
+        android:layout_alignLeft="@+id/shop"
+        android:layout_alignStart="@+id/shop"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="일 정 관 리"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_below="@+id/shop"
+        android:layout_alignLeft="@+id/sche"
+        android:layout_alignStart="@+id/sche" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="내 운 동 일 지"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:layout_above="@+id/shopBoard"
+        android:layout_alignLeft="@+id/report"
+        android:layout_alignStart="@+id/report" />
+
+    <TextView
+        android:id="@+id/trainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="T r a i n e r"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="15dp"
+        android:layout_above="@+id/report"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="27dp" />
+
+    <TextView
+        android:id="@+id/HANDY"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="33dp"
+        android:text="H A N D Y"
+        android:textColor="#ffffffff"
+        android:textStyle="bold"
+        android:textSize="30dp"/>
+
+
+</RelativeLayout>

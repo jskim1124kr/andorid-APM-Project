@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:id="@+id/activity_calendar_detail">
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="제목"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:background="@drawable/border"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/edittitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="날짜"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:background="@drawable/border"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/editdate"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="시간"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:background="@drawable/border"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/edittime"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="내용"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp"
+            android:background="@drawable/border"
+            android:textAlignment="center"/>
+
+        <EditText
+            android:id="@+id/editmemo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_weight="0.55"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="30dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnadd"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/btnsave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="저장"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btndel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="삭제"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <Button
+            android:id="@+id/btncancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="취소"
+            android:textColor="#ff000000"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+    </LinearLayout>
+
+</LinearLayout>
+
+

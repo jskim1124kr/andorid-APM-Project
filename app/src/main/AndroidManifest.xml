@@ -1,0 +1,54 @@
+
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+package="com.example.kjs11.plz">
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.DIAL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logohandy"
+        android:label="H A N D Y"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".ApplicationBase">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main"></activity>
+        <activity android:name=".Pt1Activity"></activity>
+        <activity android:name=".Pt2Activity" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".Pt3Activity" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+
+
+        <activity android:name=".Health1Activity"></activity>
+        <activity android:name=".Health2Activity" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".Health3Activity" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+
+
+        <activity android:name=".ReportMain"></activity>
+        <activity android:name=".ReportInsert" android:windowSoftInputMode="stateAlwaysHidden"></activity>
+        <activity android:name=".HealthShopActivity"></activity>
+
+
+        <activity android:name=".FoodActivity"></activity>
+        <activity android:name=".FoodFirst"></activity>
+        <activity android:name=".FoodSecond"></activity>
+        <activity android:name=".FoodThird"></activity>
+        <activity android:name=".ExerFirst"></activity>
+        <activity android:name=".ExerSecond"></activity>
+        <activity android:name=".ExerThird"></activity>
+
+        <activity android:name=".CalendarMain" android:windowSoftInputMode="stateAlwaysHidden">></activity>
+        <activity android:name=".CalendarDetail" android:windowSoftInputMode="stateAlwaysHidden">></activity>
+        <activity android:name=".CalendarActivity" android:windowSoftInputMode="stateAlwaysHidden">></activity>
+
+
+
+
+    </application>
+
+</manifest>
